@@ -7,9 +7,28 @@
     <title>Janken</title>
 </head>
 <body>
-    <script src="app.js">
 
+    <div id="page-wrapper">
+        <h1>Rock, Paper, Scissors!</h1>
+        <h2>First to five is the winner</h2>
+        <button id = "rock">Rock</button>
+        <button id = "paper">Paper</button>
+        <button id = "scissors">Scissors</button>
+        
+        <div>Score</div>
+        <div id="score">
+            <span class="score" id="user-score">0</span> -
+            <span class="score" id="cpu-score">0</span>
+        </div>
 
-    </script>
+        <div id="results-wrapper">
+            <div>Round Results:</div>
+            <div id="results"></div>
+        </div>
+
+        <button type = "button" id = "reset">Reset Game</button>
+    </div>
+
+        <script src="app.js"></script>
 </body>
 </html>
